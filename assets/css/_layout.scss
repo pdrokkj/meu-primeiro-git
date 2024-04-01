@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+   
+    transition: all 3s;
+
+
+
+    &.dark {
+        background-color: $cor-primaria;
+        color: $cor-secundaria;
+    }
+
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+
+max-width: 1140px;
+border-width: 1px;
+border-style: solid;
+border-color: rgb(255, 255, 255);
+margin-left: auto;
+margin-right: auto;
+}
